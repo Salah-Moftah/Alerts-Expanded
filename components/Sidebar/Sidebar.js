@@ -57,7 +57,7 @@ function Sidebar() {
             </li>
           ))}
         </ul>
-        <div onClick={openFilter} className={`${open ? 'text-accent-color' : 'text-white'} md:hidden flex gap-3 transition-all duration-300`}>
+        <div onClick={openFilter} className={`${!open ? 'text-accent-color' : 'text-white'} md:hidden flex gap-3 transition-all duration-300`}>
         <FontAwesomeIcon icon={faFilterCircleDollar} className={`${!isHovered ? 'text-[28px]' : 'text-[20px]' }`} />
         <span className={`sm:text-[19px] text-[15px] mr-6 font-normal ${isHovered ? 'block' : 'hidden'}`}>Filters</span>
         </div>
