@@ -10,7 +10,7 @@ function Industry() {
         {industryList.map((el) => (
           <li
             key={el.title}
-            className="h-[25px] md:border-l p-3 pb-4 text-white text-[12px]
+            className="h-[25px] md:border-l p-3 md:pb-4 pb-6 text-white text-[12px]
           font-normal  w-fit"
           >
             <div className="flex items-center gap-2 px-1 rounded-[6px] hover:bg-accent-color hover:text-first-gray">
