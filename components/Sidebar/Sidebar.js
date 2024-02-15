@@ -34,7 +34,7 @@ function Sidebar() {
   return (
     <div
       className={`w-[80px] fixed z-50 top-0 bg-third-gray
-      min-h-[100vh] ml-2
+      min-h-full ml-2
     flex items-center justify-between flex-col transition-all
     ${isHovered ? 'sm:hover:w-[180px] hover:w-[150px]' : ''} ease-in-out duration-300 shadow hover:shadow-3xl
     `}
